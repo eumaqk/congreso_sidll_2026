@@ -279,7 +279,13 @@
         <div class="section-header"><div><h2 id="pubsTitle"></h2><p class="section-desc" id="pubsIntro"></p></div></div>
         <div class="grid-3">
           <div class="card"><h3 id="bookTitle"></h3><p id="bookText"></p></div>
-          <div class="card"><h3 id="fullTitle"></h3><p id="fullText"></p><ul class="bullet-list" id="fullModes"></ul></div>
+          <div class="card">
+  <h3 id="fullTitle"></h3>
+  <p id="fullText"></p>
+  <a href="https://congresosidll2026.es/index.php/participacion/publicaciones" target="_blank" rel="noopener" style="color: var(--blue); font-weight: 600; text-decoration: underline; display: inline-block; margin-top: 12px; font-size: 1.05rem;">
+    Consultar aquí
+  </a>
+</div>
           <div class="card"><h3 id="otherTitle"></h3><p><strong id="attendanceTitle"></strong><br><span id="attendanceText"></span></p><p><strong id="participationTitle"></strong><br><span id="participationText"></span></p></div>
         </div>
         <div class="card" style="margin-top:22px"><p class="section-desc" id="reviewText"></p></div>
@@ -483,7 +489,6 @@
       fillTags('linesList', t.lines);
       fillTable('feesReducedBody', t.feeRowsReduced);
       fillTable('feesRegularBody', t.feeRowsRegular);
-      fillList('fullModes', t.fullModes);
       fillTimeline(t.dateItems);
       renderNav(lang);
       renderLangs(lang);
